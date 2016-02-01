@@ -1,0 +1,4 @@
+services:
+    cpanel_uapi:
+        class: "Tmwk\CpanelUapiBundle\Cpanel"
+        arguments: [@service_container]
